@@ -76,6 +76,7 @@ cd ~
 ## installing paramspider
 cd tools && git clone https://github.com/devanshbatham/paramspider
 cd paramspider
+sudo pip install .
 sudo pip install . --break-system-packages
 cd ~
 
@@ -99,6 +100,7 @@ cd dirsearch
 sudo python3 dirsearch.py -h
 pip3 install -r requirements.txt
 sudo pip3 install -r requirements.txt
+python3 -m pip install setuptools
 python3 -m pip install setuptools --break-system-packages
 sudo python3 dirsearch.py -u "https://example.com" -e *
 python3 setup.py install
