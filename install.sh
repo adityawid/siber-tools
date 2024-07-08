@@ -69,7 +69,7 @@ cd tools && git clone https://github.com/ameenmaali/urldedupe.git
 cd urldedupe
 cmake CMakeLists.txt
 make
-sudo cp urldedupe /usr/local/bin
+sudo mv -v urldedupe /usr/local/bin
 cd ~
 
 
@@ -84,7 +84,7 @@ cd tools && git clone https://github.com/YashGoti/crtsh.py.git
 cd crtsh.py
 mv crtsh.py crtsh
 chmod +x crtsh
-cp crtsh /usr/local/bin/
+sudo mv -v crtsh /usr/local/bin/
 cd ~
 
 ## installing dirsearch
@@ -110,7 +110,7 @@ cd ~
 cd tools && git clone https://github.com/findomain/findomain.git
 cd findomain
 cargo build --release
-sudo cp target/release/findomain /usr/local/bin/
+sudo mv -v target/release/findomain /usr/local/bin/
 cd ~
 
 ## installing xray
