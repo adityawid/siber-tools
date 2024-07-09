@@ -56,7 +56,7 @@ sudo apt install arjun
 
 echo "move bin"
 cd go/bin
-sudo mv -v * /usr/local/bin
+sudo cp -r * /usr/local/bin
 cd ~
 
 
