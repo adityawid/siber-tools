@@ -128,3 +128,6 @@ mv xray_linux_amd64 xray
 sudo ./xray
 sudo ./xray
 cd ~
+
+nuclei -update-templates
+
