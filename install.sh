@@ -1,4 +1,15 @@
 #!/bin/bash
+#create swap
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo cp /etc/fstab /etc/fstab.bak
+sudo sysctl vm.swappiness=10
+# sudo nano /etc/sysctl.conf > vm.swappiness=10
+sudo sysctl vm.vfs_cache_pressure=50
+# sudo nano /etc/sysctl.conf > vm.vfs_cache_pressure=50
+
 
 mkdir tools
 
