@@ -16,7 +16,6 @@ mkdir tools
 
 ## Installing dependencies
 sudo apt update -y
-sudo hostnamectl set-hostname ryltch
 sudo apt install -y git
 sudo apt install -y wget
 sudo apt install unzip
