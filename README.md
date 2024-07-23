@@ -23,7 +23,17 @@
 - dirsearch
 - anew
 - gospider
+- xsstrike
+- dalfox
+- airixss
+- bxsshunter ( blind xss)
+- findom-xss
 
+
+## mobile pentest
+- jadx
+- mobsf
+- frida
 
 # oneliner commands for bug bounties
 
