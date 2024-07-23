@@ -61,6 +61,7 @@ go install -v github.com/tomnomnom/anew@latest
 go install github.com/jaeles-project/gospider@latest
 go install github.com/ferreiraklet/airixss@latest
 go install -v github.com/xm1k3/cent@latest
+GO111MODULE=on go install github.com/dwisiswant0/go-dork@latest
 
 pip3 install arjun
 sudo apt install arjun
