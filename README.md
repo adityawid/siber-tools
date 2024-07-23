@@ -34,6 +34,7 @@
 - jadx
 - mobsf
 - frida
+- nuclei mobile template https://github.com/optiv/mobile-nuclei-templates
 
 # oneliner commands for bug bounties
 
