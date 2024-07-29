@@ -37,6 +37,7 @@
 - nuclei mobile template https://github.com/optiv/mobile-nuclei-templates
 - uber apk signer https://github.com/patrickfav/uber-apk-signer
 - apktool https://github.com/iBotPeaches/Apktool
+- https://gist.github.com/bergmannjg/461958db03c6ae41a66d264ae6504ade
 
 # oneliner commands for bug bounties
 
