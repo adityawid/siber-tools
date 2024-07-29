@@ -27,6 +27,7 @@ sudo apt-get install -y  python3-pip
 # Install Python dependencies
 python3 -m pip install -r requirements.txt
 python3 -m pip install -r requirements.txt --break-system-packages
+sudo pip3 install frida-tools
 
 
 # pip install python-telegram-bot
