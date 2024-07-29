@@ -35,6 +35,8 @@
 - mobsf
 - frida
 - nuclei mobile template https://github.com/optiv/mobile-nuclei-templates
+- uber apk signer https://github.com/patrickfav/uber-apk-signer
+- apktool https://github.com/iBotPeaches/Apktool
 
 # oneliner commands for bug bounties
 
