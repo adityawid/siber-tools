@@ -64,6 +64,7 @@ go install github.com/ferreiraklet/airixss@latest
 go install -v github.com/xm1k3/cent@latest
 GO111MODULE=on go install github.com/dwisiswant0/go-dork@latest
 go install github.com/hahwul/dalfox/v2@latest
+go install github.com/ffuf/ffuf/v2@latest
 
 # The actual release might slightly differ. This is because go install references the main branch.
 
