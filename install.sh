@@ -53,6 +53,7 @@ go install github.com/tomnomnom/qsreplace@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install github.com/incogbyte/shosubgo@latest
 go install github.com/gwen001/github-subdomains@latest
+go install github.com/gwen001/gitlab-subdomains@latest
 go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
 go install -v github.com/owasp-amass/amass/v3/...@master
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
@@ -65,7 +66,7 @@ go install -v github.com/xm1k3/cent@latest
 GO111MODULE=on go install github.com/dwisiswant0/go-dork@latest
 go install github.com/hahwul/dalfox/v2@latest
 go install github.com/ffuf/ffuf/v2@latest
-
+go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 # The actual release might slightly differ. This is because go install references the main branch.
 
 pip3 install arjun
@@ -76,6 +77,11 @@ cd go/bin
 sudo cp -r * /usr/local/bin
 cd ~
 
+
+cd tools && git clone https://github.com/six2dez/reconftw
+cd reconftw/
+./install.sh
+# ./reconftw.sh -d target.com -r
 
 ## manage gf template
 git clone https://github.com/Sherlock297/gf_patterns.git
