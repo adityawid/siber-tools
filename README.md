@@ -42,6 +42,11 @@
 
 # oneliner commands for bug bounties
 
+## Update GO-Lang
+```bash
+curl https://raw.githubusercontent.com/udhos/update-golang/master/update-golang.sh | sudo bash
+```
+
 ## Find Subdomain
 > projectdiscovery
 ```bash
