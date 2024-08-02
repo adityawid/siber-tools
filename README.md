@@ -366,6 +366,11 @@ cat hosts.txt | httpx -path /login -p 80,443,8080,8443 -mc 401,403 -silent -t 30
 echo tesla.com | subfinder -silent | httpx -silent | cariddi -intensive
 ```
 
+## Wordlist
+> build wordlist fron nuclei template
+```bash
+for i in `grep -R yaml | awk -F: '{print $1}'`; do cat $i | grep 'BaseURL}}/' | awk -F '{{BaseURL}}' '{print $2}' | sed 's/"//g' | sed "s/'//g"; done
+```
 
 # Reference
 - [dwisiswant0](https://github.com/dwisiswant0/awesome-oneliner-bugbounty)
