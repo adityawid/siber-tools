@@ -34,9 +34,9 @@ sudo pip3 install frida-tools
 # sudo apt install gccgo-go -y
 #sudo apt install golang-go -y
 wget https://go.dev/dl/go1.22.5.linux-amd64.tar.gz
-rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz
-echo export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH >> ~/.profile
-source ~/.profile
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz
+sudo echo export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH >> ~/.profile
+sudo source ~/.profile
 
 mkdir ~/.gf
 
