@@ -25,8 +25,8 @@ sudo apt install -y cargo
 sudo apt-get install -y  python3-pip
 
 # Install Python dependencies
-python3 -m pip install -r requirements.txt
-python3 -m pip install -r requirements.txt --break-system-packages
+sudo python3 -m pip install -r requirements.txt
+sudo python3 -m pip install -r requirements.txt --break-system-packages
 sudo pip3 install frida-tools
 
 
@@ -123,18 +123,19 @@ cd ~
 ### python3 -m pip install setuptools
 ### python3 dirsearch.py -u "https://example.com" -e *
 ### cd ../tools/dirsearch-master
-cd tools && git clone https://github.com/maurosoria/dirsearch.git --depth 1
-cd dirsearch
-sudo python3 dirsearch.py -h
-pip3 install -r requirements.txt
-sudo pip3 install -r requirements.txt
-python3 -m pip install setuptools
-python3 -m pip install setuptools --break-system-packages
-sudo python3 dirsearch.py -u "https://example.com" -e *
-python3 setup.py install
-sudo python3 setup.py install
-python3 dirsearch.py
-cd ~
+# cd tools && git clone https://github.com/maurosoria/dirsearch.git --depth 1
+# cd dirsearch
+# sudo python3 dirsearch.py -h
+# pip3 install -r requirements.txt
+# sudo pip3 install -r requirements.txt
+# python3 -m pip install setuptools
+# python3 -m pip install setuptools --break-system-packages
+# sudo python3 dirsearch.py -u "https://example.com" -e *
+# python3 setup.py install
+# sudo python3 setup.py install
+# python3 dirsearch.py
+# cd ~
+sudo pip3 install dirsearch --break-system-packages
 
 ## installing findomain
 cd tools && git clone https://github.com/findomain/findomain.git
